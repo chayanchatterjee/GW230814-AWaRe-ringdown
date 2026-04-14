@@ -1,0 +1,570 @@
+Using pre-saved training dataset: /data/p_dsi/ligo/GW230814/Train_GW230814_ringdown_1024Hz_highpass_16kHz_sr.hdf
+Using pre-saved test dataset: /data/p_dsi/ligo/GW230814/Test_GW230814_ringdown_1024Hz_highpass_16kHz_sr.hdf
+Epoch 1/200
+Validation Loss: 2.5618
+New best model saved with Loss: 2.5618
+Epoch 2/200
+Validation Loss: 0.9702
+New best model saved with Loss: 0.9702
+Epoch 3/200
+Validation Loss: 0.4575
+New best model saved with Loss: 0.4575
+Epoch 4/200
+Validation Loss: 0.3876
+New best model saved with Loss: 0.3876
+Epoch 5/200
+Validation Loss: 0.3419
+New best model saved with Loss: 0.3419
+Epoch 6/200
+Validation Loss: 0.3126
+New best model saved with Loss: 0.3126
+Epoch 7/200
+Validation Loss: 0.2801
+New best model saved with Loss: 0.2801
+Epoch 8/200
+Validation Loss: 0.2599
+New best model saved with Loss: 0.2599
+Epoch 9/200
+Validation Loss: 0.2457
+New best model saved with Loss: 0.2457
+Epoch 10/200
+Validation Loss: 0.2441
+New best model saved with Loss: 0.2441
+Epoch 11/200
+Validation Loss: 0.2265
+New best model saved with Loss: 0.2265
+Epoch 12/200
+Validation Loss: 0.2235
+New best model saved with Loss: 0.2235
+Epoch 13/200
+Validation Loss: 0.2169
+New best model saved with Loss: 0.2169
+Epoch 14/200
+Validation Loss: 0.2040
+New best model saved with Loss: 0.2040
+Epoch 15/200
+Validation Loss: 0.2045
+Epoch 16/200
+Validation Loss: 0.2211
+Epoch 17/200
+Validation Loss: 0.1974
+New best model saved with Loss: 0.1974
+Epoch 18/200
+Validation Loss: 0.1977
+Epoch 19/200
+Validation Loss: 0.1745
+New best model saved with Loss: 0.1745
+Epoch 20/200
+Validation Loss: 0.1768
+Epoch 21/200
+Validation Loss: 0.1606
+New best model saved with Loss: 0.1606
+Epoch 22/200
+Validation Loss: 0.1476
+New best model saved with Loss: 0.1476
+Epoch 23/200
+Validation Loss: 0.1354
+New best model saved with Loss: 0.1354
+Epoch 24/200
+Validation Loss: 0.0976
+New best model saved with Loss: 0.0976
+Epoch 25/200
+Validation Loss: 0.0580
+New best model saved with Loss: 0.0580
+Epoch 26/200
+Validation Loss: 0.0037
+New best model saved with Loss: 0.0037
+Epoch 27/200
+Validation Loss: -0.0430
+New best model saved with Loss: -0.0430
+Epoch 28/200
+Validation Loss: -0.1170
+New best model saved with Loss: -0.1170
+Epoch 29/200
+Validation Loss: -0.1722
+New best model saved with Loss: -0.1722
+Epoch 30/200
+Validation Loss: -0.2090
+New best model saved with Loss: -0.2090
+Epoch 31/200
+Validation Loss: -0.2565
+New best model saved with Loss: -0.2565
+Epoch 32/200
+Validation Loss: -0.2836
+New best model saved with Loss: -0.2836
+Epoch 33/200
+Validation Loss: -0.3645
+New best model saved with Loss: -0.3645
+Epoch 34/200
+Validation Loss: -0.3695
+New best model saved with Loss: -0.3695
+Epoch 35/200
+Validation Loss: -0.4094
+New best model saved with Loss: -0.4094
+Epoch 36/200
+Validation Loss: -0.4564
+New best model saved with Loss: -0.4564
+Epoch 37/200
+Validation Loss: -0.4751
+New best model saved with Loss: -0.4751
+Epoch 38/200
+Validation Loss: -0.5135
+New best model saved with Loss: -0.5135
+Epoch 39/200
+Validation Loss: -0.5224
+New best model saved with Loss: -0.5224
+Epoch 40/200
+Validation Loss: -0.5693
+New best model saved with Loss: -0.5693
+Epoch 41/200
+Validation Loss: -0.5825
+New best model saved with Loss: -0.5825
+Epoch 42/200
+Validation Loss: -0.5902
+New best model saved with Loss: -0.5902
+Epoch 43/200
+Validation Loss: -0.6327
+New best model saved with Loss: -0.6327
+Epoch 44/200
+Validation Loss: -0.6410
+New best model saved with Loss: -0.6410
+Epoch 45/200
+Validation Loss: -0.6603
+New best model saved with Loss: -0.6603
+Epoch 46/200
+Validation Loss: -0.6767
+New best model saved with Loss: -0.6767
+Epoch 47/200
+Validation Loss: -0.6993
+New best model saved with Loss: -0.6993
+Epoch 48/200
+Validation Loss: -0.7282
+New best model saved with Loss: -0.7282
+Epoch 49/200
+Validation Loss: -0.7405
+New best model saved with Loss: -0.7405
+Epoch 50/200
+Validation Loss: -0.7511
+New best model saved with Loss: -0.7511
+Epoch 51/200
+Validation Loss: -0.7100
+Epoch 52/200
+Validation Loss: -0.7565
+New best model saved with Loss: -0.7565
+Epoch 53/200
+Validation Loss: -0.7794
+New best model saved with Loss: -0.7794
+Epoch 54/200
+Validation Loss: -0.8144
+New best model saved with Loss: -0.8144
+Epoch 55/200
+Validation Loss: -0.7993
+Epoch 56/200
+Validation Loss: -0.8229
+New best model saved with Loss: -0.8229
+Epoch 57/200
+Validation Loss: -0.8470
+New best model saved with Loss: -0.8470
+Epoch 58/200
+Validation Loss: -0.8656
+New best model saved with Loss: -0.8656
+Epoch 59/200
+Validation Loss: -0.8378
+Epoch 60/200
+Validation Loss: -0.8600
+Epoch 61/200
+Validation Loss: -0.8861
+New best model saved with Loss: -0.8861
+Epoch 62/200
+Validation Loss: -0.9021
+New best model saved with Loss: -0.9021
+Epoch 63/200
+Validation Loss: -0.8997
+Epoch 64/200
+Validation Loss: -0.9161
+New best model saved with Loss: -0.9161
+Epoch 65/200
+Validation Loss: -0.9317
+New best model saved with Loss: -0.9317
+Epoch 66/200
+Validation Loss: -0.9212
+Epoch 67/200
+Validation Loss: -0.9619
+New best model saved with Loss: -0.9619
+Epoch 68/200
+Validation Loss: -0.9312
+Epoch 69/200
+Validation Loss: -0.9199
+Epoch 70/200
+Validation Loss: -0.9864
+New best model saved with Loss: -0.9864
+Epoch 71/200
+Validation Loss: -0.9668
+Epoch 72/200
+Validation Loss: -0.9716
+Epoch 73/200
+Validation Loss: -0.9904
+New best model saved with Loss: -0.9904
+Epoch 74/200
+Validation Loss: -0.9996
+New best model saved with Loss: -0.9996
+Epoch 75/200
+Validation Loss: -0.9022
+Epoch 76/200
+Validation Loss: -1.0175
+New best model saved with Loss: -1.0175
+Epoch 77/200
+Validation Loss: -1.0109
+Epoch 78/200
+Validation Loss: -1.0371
+New best model saved with Loss: -1.0371
+Epoch 79/200
+Validation Loss: -1.0446
+New best model saved with Loss: -1.0446
+Epoch 80/200
+Validation Loss: -1.0220
+Epoch 81/200
+Validation Loss: -1.0300
+Epoch 82/200
+Validation Loss: -1.0147
+Epoch 83/200
+Validation Loss: -1.0465
+New best model saved with Loss: -1.0465
+Epoch 84/200
+Validation Loss: -1.0829
+New best model saved with Loss: -1.0829
+Epoch 85/200
+Validation Loss: -1.0526
+Epoch 86/200
+Validation Loss: -1.0562
+Epoch 87/200
+Validation Loss: -1.0786
+Epoch 88/200
+Validation Loss: -1.0447
+Epoch 89/200
+Validation Loss: -1.0996
+New best model saved with Loss: -1.0996
+Epoch 90/200
+Validation Loss: -1.1142
+New best model saved with Loss: -1.1142
+Epoch 91/200
+Validation Loss: -1.0910
+Epoch 92/200
+Validation Loss: -1.0690
+Epoch 93/200
+Validation Loss: -1.0988
+Epoch 94/200
+Validation Loss: -1.1266
+New best model saved with Loss: -1.1266
+Epoch 95/200
+Validation Loss: -1.1001
+Epoch 96/200
+Validation Loss: -1.0775
+Epoch 97/200
+Validation Loss: -1.1141
+Epoch 98/200
+Validation Loss: -1.1199
+Epoch 99/200
+Validation Loss: -1.1423
+New best model saved with Loss: -1.1423
+Epoch 100/200
+Validation Loss: -1.1368
+Epoch 101/200
+Validation Loss: -1.1356
+Epoch 102/200
+Validation Loss: -1.1600
+New best model saved with Loss: -1.1600
+Epoch 103/200
+Validation Loss: -1.1484
+Epoch 104/200
+Validation Loss: -1.1713
+New best model saved with Loss: -1.1713
+Epoch 105/200
+Validation Loss: -1.1551
+Epoch 106/200
+Validation Loss: -1.1704
+Epoch 107/200
+Validation Loss: -1.1754
+New best model saved with Loss: -1.1754
+Epoch 108/200
+Validation Loss: -1.1831
+New best model saved with Loss: -1.1831
+Epoch 109/200
+Validation Loss: -1.1791
+Epoch 110/200
+Validation Loss: -1.1966
+New best model saved with Loss: -1.1966
+Epoch 111/200
+Validation Loss: -1.2037
+New best model saved with Loss: -1.2037
+Epoch 112/200
+Validation Loss: -1.2022
+Epoch 113/200
+Validation Loss: -1.2011
+Epoch 114/200
+Validation Loss: -1.2286
+New best model saved with Loss: -1.2286
+Epoch 115/200
+Validation Loss: -1.1521
+Epoch 116/200
+Validation Loss: -1.2002
+Epoch 117/200
+Validation Loss: -1.2001
+Epoch 118/200
+Validation Loss: -1.2185
+Epoch 119/200
+Validation Loss: -1.2180
+Epoch 120/200
+Validation Loss: -1.2435
+New best model saved with Loss: -1.2435
+Epoch 121/200
+Validation Loss: -1.2211
+Epoch 122/200
+Validation Loss: -1.2226
+Epoch 123/200
+Validation Loss: -1.2330
+Epoch 124/200
+Validation Loss: -1.2437
+New best model saved with Loss: -1.2437
+Epoch 125/200
+Validation Loss: -1.2501
+New best model saved with Loss: -1.2501
+Epoch 126/200
+Validation Loss: -1.2461
+Epoch 127/200
+Validation Loss: -1.2456
+Epoch 128/200
+Validation Loss: -1.2522
+New best model saved with Loss: -1.2522
+Epoch 129/200
+Validation Loss: -1.2727
+New best model saved with Loss: -1.2727
+Epoch 130/200
+Validation Loss: -1.2580
+Epoch 131/200
+Validation Loss: -1.2652
+Epoch 132/200
+Validation Loss: -1.2719
+Epoch 133/200
+Validation Loss: -1.2654
+Epoch 134/200
+Validation Loss: -1.2816
+New best model saved with Loss: -1.2816
+Epoch 135/200
+Validation Loss: -1.2754
+Epoch 136/200
+Validation Loss: -1.2782
+Epoch 137/200
+Validation Loss: -1.2584
+Epoch 138/200
+Validation Loss: -1.2866
+New best model saved with Loss: -1.2866
+Epoch 139/200
+Validation Loss: -1.2821
+Epoch 140/200
+Validation Loss: -1.2917
+New best model saved with Loss: -1.2917
+Epoch 141/200
+Validation Loss: -1.2905
+Epoch 142/200
+Validation Loss: -1.2916
+Epoch 143/200
+Validation Loss: -1.2924
+New best model saved with Loss: -1.2924
+Epoch 144/200
+Validation Loss: -1.3013
+New best model saved with Loss: -1.3013
+Epoch 145/200
+Validation Loss: -1.3004
+Epoch 146/200
+Validation Loss: -1.2873
+Epoch 147/200
+Validation Loss: -1.3044
+New best model saved with Loss: -1.3044
+Epoch 148/200
+Validation Loss: -1.3030
+Epoch 149/200
+Validation Loss: -1.3102
+New best model saved with Loss: -1.3102
+Epoch 150/200
+Validation Loss: -1.3046
+Epoch 151/200
+Validation Loss: -1.3112
+New best model saved with Loss: -1.3112
+Epoch 152/200
+Validation Loss: -1.3142
+New best model saved with Loss: -1.3142
+Epoch 153/200
+Validation Loss: -1.3176
+New best model saved with Loss: -1.3176
+Epoch 154/200
+Validation Loss: -1.3182
+New best model saved with Loss: -1.3182
+Epoch 155/200
+Validation Loss: -1.3208
+New best model saved with Loss: -1.3208
+Epoch 156/200
+Validation Loss: -1.3220
+New best model saved with Loss: -1.3220
+Epoch 157/200
+Validation Loss: -1.3263
+New best model saved with Loss: -1.3263
+Epoch 158/200
+Validation Loss: -1.3291
+New best model saved with Loss: -1.3291
+Epoch 159/200
+Validation Loss: -1.3298
+New best model saved with Loss: -1.3298
+Epoch 160/200
+Validation Loss: -1.3298
+New best model saved with Loss: -1.3298
+Epoch 161/200
+Validation Loss: -1.3318
+New best model saved with Loss: -1.3318
+Epoch 162/200
+Validation Loss: -1.3337
+New best model saved with Loss: -1.3337
+Epoch 163/200
+Validation Loss: -1.3298
+Epoch 164/200
+Validation Loss: -1.3358
+New best model saved with Loss: -1.3358
+Epoch 165/200
+Validation Loss: -1.3369
+New best model saved with Loss: -1.3369
+Epoch 166/200
+Validation Loss: -1.3363
+Epoch 167/200
+Validation Loss: -1.3409
+New best model saved with Loss: -1.3409
+Epoch 168/200
+Validation Loss: -1.3403
+Epoch 169/200
+Validation Loss: -1.3397
+Epoch 170/200
+Validation Loss: -1.3397
+Epoch 171/200
+Validation Loss: -1.3430
+New best model saved with Loss: -1.3430
+Epoch 172/200
+Validation Loss: -1.3446
+New best model saved with Loss: -1.3446
+Epoch 173/200
+Validation Loss: -1.3440
+Epoch 174/200
+Validation Loss: -1.3464
+New best model saved with Loss: -1.3464
+Epoch 175/200
+Validation Loss: -1.3447
+Epoch 176/200
+Validation Loss: -1.3476
+New best model saved with Loss: -1.3476
+Epoch 177/200
+Validation Loss: -1.3490
+New best model saved with Loss: -1.3490
+Epoch 178/200
+Validation Loss: -1.3489
+Epoch 179/200
+Validation Loss: -1.3503
+New best model saved with Loss: -1.3503
+Epoch 180/200
+Validation Loss: -1.3508
+New best model saved with Loss: -1.3508
+Epoch 181/200
+Validation Loss: -1.3512
+New best model saved with Loss: -1.3512
+Epoch 182/200
+Validation Loss: -1.3515
+New best model saved with Loss: -1.3515
+Epoch 183/200
+Validation Loss: -1.3522
+New best model saved with Loss: -1.3522
+Epoch 184/200
+Validation Loss: -1.3529
+New best model saved with Loss: -1.3529
+Epoch 185/200
+Validation Loss: -1.3532
+New best model saved with Loss: -1.3532
+Epoch 186/200
+Validation Loss: -1.3532
+New best model saved with Loss: -1.3532
+Epoch 187/200
+Validation Loss: -1.3539
+New best model saved with Loss: -1.3539
+Epoch 188/200
+Validation Loss: -1.3541
+New best model saved with Loss: -1.3541
+Epoch 189/200
+Validation Loss: -1.3544
+New best model saved with Loss: -1.3544
+Epoch 190/200
+Validation Loss: -1.3546
+New best model saved with Loss: -1.3546
+Epoch 191/200
+Validation Loss: -1.3549
+New best model saved with Loss: -1.3549
+Epoch 192/200
+Validation Loss: -1.3551
+New best model saved with Loss: -1.3551
+Epoch 193/200
+Validation Loss: -1.3552
+New best model saved with Loss: -1.3552
+Epoch 194/200
+Validation Loss: -1.3554
+New best model saved with Loss: -1.3554
+Epoch 195/200
+Validation Loss: -1.3555
+New best model saved with Loss: -1.3555
+Epoch 196/200
+Validation Loss: -1.3555
+New best model saved with Loss: -1.3555
+Epoch 197/200
+Validation Loss: -1.3556
+New best model saved with Loss: -1.3556
+Epoch 198/200
+Validation Loss: -1.3556
+New best model saved with Loss: -1.3556
+Epoch 199/200
+Validation Loss: -1.3556
+New best model saved with Loss: -1.3556
+Epoch 200/200
+Validation Loss: -1.3556
+New best model saved with Loss: -1.3556
+Test results saved.
+Test plots saved.
+
+============================================================
+UNCERTAINTY CALIBRATION TEST
+============================================================
+Saved: calibration_plots_rope_ringdown/calibration_0.png
+Sample 0: sigma_masked=0.1936, sigma_unmasked=0.2998, ratio=0.65x
+Saved: calibration_plots_rope_ringdown/calibration_1.png
+Sample 1: sigma_masked=0.1880, sigma_unmasked=0.2573, ratio=0.73x
+Saved: calibration_plots_rope_ringdown/calibration_2.png
+Sample 2: sigma_masked=0.2180, sigma_unmasked=0.2183, ratio=1.00x
+Saved: calibration_plots_rope_ringdown/calibration_3.png
+Sample 3: sigma_masked=0.2021, sigma_unmasked=0.1718, ratio=1.18x
+Saved: calibration_plots_rope_ringdown/calibration_4.png
+Sample 4: sigma_masked=0.2783, sigma_unmasked=0.1930, ratio=1.44x
+
+============================================================
+ATTENTION MAP EXTRACTION (with RoPE)
+============================================================
+Collected attention maps from 14 layers:
+  enc_0_block_0: torch.Size([1, 2, 983, 983])
+  enc_0_block_1: torch.Size([1, 2, 983, 983])
+  enc_1_block_0: torch.Size([1, 4, 491, 491])
+  enc_1_block_1: torch.Size([1, 4, 491, 491])
+  enc_2_block_0: torch.Size([1, 4, 245, 245])
+  enc_2_block_1: torch.Size([1, 4, 245, 245])
+  enc_3_block_0: torch.Size([1, 8, 122, 122])
+  enc_3_block_1: torch.Size([1, 8, 122, 122])
+  dec_0_block_0: torch.Size([1, 4, 245, 245])
+  dec_0_block_1: torch.Size([1, 4, 245, 245])
+  dec_1_block_0: torch.Size([1, 4, 491, 491])
+  dec_1_block_1: torch.Size([1, 4, 491, 491])
+  dec_2_block_0: torch.Size([1, 2, 983, 983])
+  dec_2_block_1: torch.Size([1, 2, 983, 983])
+Auto-detected merger peak at 10.0 ms
+Saved: attention_results_rope_ringdown/attn_vs_fisher.png
+Attention analysis complete.
