@@ -19,6 +19,7 @@ Uses SEOBNRv5PHM (pSEOBNR setup):
 - JSON config: `generate_samples/config_files/default_pSEOBNR.json`
 - INI config: `generate_samples/config_files/waveform_params_pSEOBNR.ini`
 
+Basic run:
 ```bash
 cd generate_samples
 python generate_sample.py --config-file default_pSEOBNR.json
@@ -39,6 +40,7 @@ These files are ready for loading in your own PyTorch evaluation/inference scrip
 
 From repository root:
 
+Run training (training code from main branch):
 ```bash
 cd generate_samples
 python generate_sample.py --config-file default.json            # standard
