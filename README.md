@@ -1,12 +1,23 @@
 # GW230814-AWaRe-ringdown
 
-Compact workflow for waveform generation and temporal-attention waveform reconstruction.
+Compact workflow for generating GW datasets and using the provided waveform reconstruction artifacts.
 
-## Waveform generation: pSEOBNR
+## Standard waveform generation
 
-pSEOBNR generation uses SEOBNRv5PHM with:
-- JSON: `generate_samples/config_files/default_pSEOBNR.json`
-- INI: `generate_samples/config_files/waveform_params_pSEOBNR.ini`
+Uses IMRPhenomXPHM (default setup):
+- JSON config: `generate_samples/config_files/default.json`
+- INI config: `generate_samples/config_files/waveform_params.ini`
+
+```bash
+cd generate_samples
+python generate_sample.py --config-file default.json
+```
+
+## pSEOBNR waveform generation
+
+Uses SEOBNRv5PHM (pSEOBNR setup):
+- JSON config: `generate_samples/config_files/default_pSEOBNR.json`
+- INI config: `generate_samples/config_files/waveform_params_pSEOBNR.ini`
 
 Basic run:
 ```bash
@@ -14,43 +25,24 @@ cd generate_samples
 python generate_sample.py --config-file default_pSEOBNR.json
 ```
 
-Useful pSEOBNR options:
-```bash
-# Multi-detector + multiple noise realizations
-python generate_sample.py --config-file default_pSEOBNR.json --detectors H1 L1 --n-noise-realizations 2
+Optional ringdown-deviation controls are available (for example `--domega-22`, `--dtau-22`, or sampled ranges via `--domega-range-modes` / `--dtau-range-modes`).
 
-# Fixed ringdown deviations for selected modes
-python generate_sample.py --config-file default_pSEOBNR.json --domega-22 0.05 --dtau-22 -0.03 --domega-33 0.02 --dtau-33 0.01
+## Waveform reconstruction model
 
-# Sample deviations from INI ranges for selected modes
-python generate_sample.py --config-file default_pSEOBNR.json --domega-range-modes 22 33 --dtau-range-modes 22 33
-```
+This repo also includes pretrained temporal-attention reconstruction artifacts:
+- Checkpoints: `checkpoints_temporal_attn*` directories (`best_model_*.pt`)
+- Evaluation outputs: `test_results_temporal_attn*.pt`
+- Analysis outputs: `attention_results*` and `calibration_plots*`
 
-## Waveform generation: everything else
+These files are ready for loading in your own PyTorch evaluation/inference script.
 
-Standard/default generation (IMRPhenomXPHM):
-- JSON: `generate_samples/config_files/default.json`
-- INI: `generate_samples/config_files/waveform_params.ini`
+## How to run the code
 
-```bash
-cd generate_samples
-python generate_sample.py --config-file default.json
-```
-
-Other available configs:
-- `default_NRSur.json` + `waveform_params_NRSur.ini` (NRSur7dq4)
-- `default_IMBH.json` + `waveform_params_IMBH.ini` (IMBH-focused setup)
-
-## Waveform reconstruction model (brief)
-
-The reconstruction model is a temporal-attention network that learns to map noisy detector time-series to cleaned/reconstructed GW waveforms for ringdown-focused analysis.
-
-Repository artifacts:
-- Best checkpoints: `checkpoints_temporal_attn*/best_model_*.pt`
-- Test outputs: `test_results_temporal_attn*.pt`
-- Attention/calibration summaries: `attention_results*`, `calibration_plots*`
+From repository root:
 
 Run training (training code from main branch):
 ```bash
-python train_temporal_attn.py
+cd generate_samples
+python generate_sample.py --config-file default.json            # standard
+python generate_sample.py --config-file default_pSEOBNR.json    # pSEOBNR
 ```
