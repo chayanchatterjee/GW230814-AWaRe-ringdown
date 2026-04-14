@@ -1,0 +1,17 @@
+{
+  "random_seed": 650,
+  "template_random_seed": 10,
+  "background_data_directory": "O3b_noise_test",
+  "dq_bits": [0, 1, 2, 3],
+  "inj_bits": [0, 1, 2, 4],
+  "waveform_params_file_name": "waveform_params_IMBH.ini",
+  "max_runtime": 60000,
+  "n_injection_samples": 250,
+  "n_noise_samples": 250,
+  "n_processes": 10,
+  "n_template_samples": 0,
+  "output_file_name": "GW231123_injection_test_scattered_light.hdf",
+  "snr_output_file_name": "default_snr_series_test_1_sec_10to80_for_cm_1.hdf",
+  "template_output_file_name": "default_templates.hdf"
+}
+

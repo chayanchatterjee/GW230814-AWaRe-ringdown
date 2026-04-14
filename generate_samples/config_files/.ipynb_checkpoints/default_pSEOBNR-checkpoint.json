@@ -1,0 +1,16 @@
+{
+  "random_seed": 128,
+  "template_random_seed": 10,
+  "background_data_directory": "/home/chayan.chatterjee/Glitch_generate/samplegen/O4a_16KHZ_R1",
+  "dq_bits": [0, 1, 2, 3],
+  "inj_bits": [0, 1, 2, 4],
+  "waveform_params_file_name": "waveform_params_pSEOBNR.ini",
+  "max_runtime": 6000,
+  "n_injection_samples": 2000,
+  "n_noise_samples": 10,
+  "n_processes": 10,
+  "n_template_samples": 0,
+  "output_file_name": "pSEOBNR_samples_test.hdf",
+  "snr_output_file_name": "default_snr_series_test_1_sec_10to80_for_cm_1.hdf",
+  "template_output_file_name": "default_templates.hdf"
+}
